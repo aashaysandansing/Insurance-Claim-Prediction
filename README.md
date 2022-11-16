@@ -7,4 +7,4 @@ Tried several different approaches for this problem. The following gave the best
 5. Used variance inflation factor to get rid of multicollinearity. Features with high VIF score were dropped
 6. Used Catboost algorithm. Initial prediction resulted in a f1 score of 0
 7. Tuned parameter scale_pos_weight to tackle the problem of majority of samples belonging to class 0.
-8. Optimum f1 score at scale_pos_weigh=10
+8. Optimum f1 score at scale_pos_weight=10
